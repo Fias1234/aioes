@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>All In One Coaching & Training Center Qayyumabad<br><r>آل اِن ون کوچنگ اینڈ ٹریننگ سنٹر</r></title>
+    <title>XYZ Training Center</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-lkRsS0Y6uL5F2fKBOx08WMAowbU7jNPHV2yOCvz/yFNoIMg0Y6nDWzvTHt4s6J1IyUETa2fTP1F3J3jFY3xQ/w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
 </head>
 <body class="dark-theme">
     <header>
-        <h1>All In One Coaching & Training Center Qayyumabad</h1>
-        <h2>Academic, Technical & Vocational training under one roof</h2>
+        <h1 id="heading-english">Learn and Master Computers at XYZ Training Center!</h1>
+        <h1 id="heading-urdu" style="display: none;">XYZ تربیت مرکز میں کمپیوٹر کو سیکھیں اور قابو کریں!</h1>
+        <h2 id="subheading-english">Unlock Your Potential in the Digital World</h2>
+        <h2 id="subheading-urdu" style="display: none;">ڈیجیٹل دنیا میں اپنے پتے کھولیں</h2>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -16,6 +19,7 @@
                 <li><a href="#instructors">Instructors</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><button id="language-toggle" onclick="toggleLanguage()">Toggle Language</button></li>
             </ul>
         </nav>
     </header>
@@ -87,8 +91,7 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
-
-    <footer>
+<footer>
         <p>&copy; 2023 XYZ Training Center. All rights reserved.</p>
         <ul class="social-icons">
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
