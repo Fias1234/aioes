@@ -13,6 +13,8 @@ function toggleLanguage() {
         subheadingUrdu.style.display = "none";
         MissionHeadEng.style.display = "block";
         MissionHeadUrdu.style.display = "none";
+        Mission Eng.style.display = "block";
+        Mission Urdu.style.display = "none";
     } else {
         headingEnglish.style.display = "none";
         headingUrdu.style.display = "block";
@@ -20,5 +22,7 @@ function toggleLanguage() {
         subheadingUrdu.style.display = "block";
         MissionHeadEng.style.display = "none";
         MissionHeadUrdu.style.display = "block";
+        Mission Eng.style.display = "none";
+        Mission Urdu.style.display = "block";
     }
 }
