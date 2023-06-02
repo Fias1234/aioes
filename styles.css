@@ -109,3 +109,7 @@ footer {
   font-family: "Nastaleeq", "Jameel Noori Nastaleeq", Arial, sans-serif;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
